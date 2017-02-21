@@ -37,7 +37,7 @@ You can use any characters to create your own numeral system. For example `-`, `
 ```javascript
 const Charcoder = require('charcode')
 
-const custom = new Charcoder('-', '+', 'hello')
+const custom = new Charcoder('-' + '+' + 'hello')
 
 custom.encode(100) // 'h-h'
 custom.decode('h-h') // 100
@@ -49,11 +49,11 @@ custom.decode('h-h') // 100
 const Charcoder = require('charcoder')
 ```
 
-### constructor(...charset)
-- __charset__ `<String>` string(s) that are used as characters of your numeral system.
+### constructor(charset)
+- __charset__ `<String>` string that includes the characters of your numeral system. (default: Charcoder.HEX)
 
 ```javascript
-a = new Charcoder('hi', 'baz')
+a = new Charcoder('hi' + 'baz')
 
 a.charset // 'hibaz'
 ```

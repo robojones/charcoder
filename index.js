@@ -3,8 +3,8 @@ const ABC = 'abcdefghijklmnopqrstuvwxyz'
 const HEX = NUM + ABC.substring(0, 6)
 
 class Charcoder {
-  constructor(...charset) {
-    this.charset = charset.join('') || HEX
+  constructor(charset = HEX) {
+    this.charset = charset
   }
 
   encode(number) {
