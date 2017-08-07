@@ -1,5 +1,7 @@
 # charcoder
 
+[![Build Status](https://travis-ci.org/robojones/charcoder.svg?branch=master)](https://travis-ci.org/robojones/charcoder)
+
 ## Installation
 
 ```
@@ -22,9 +24,12 @@ hex.decode('64') // 100
 ### Duosexagesimal (0-9, a-f, A-F)
 
 ```javascript
-const Charcoder = require('charcoder')
+const {
+  Charcoder,
+  B62
+} = require('charcoder')
 
-const b62 = new Charcoder(Charcoder.B62)
+const b62 = new Charcoder(B62)
 
 b62.encode(100) // '1C'
 b62.decode('1C') // 100
@@ -37,16 +42,18 @@ You can use any characters to create your own numeral system. For example `-`, `
 ```javascript
 const Charcoder = require('charcode')
 
-const custom = new Charcoder('-' + '+' + 'hello')
+const custom = new Charcoder('-' + '+' + 'hey')
 
-custom.encode(100) // 'h-h'
-custom.decode('h-h') // 100
+custom.encode(100) // 'y--'
+custom.decode('y--') // 100
 ```
 
 ## Class: Charcoder
 
 ```javascript
 const Charcoder = require('charcoder')
+// or
+const { Charcoder } = require('charcoder')
 ```
 
 ### constructor(charset)
