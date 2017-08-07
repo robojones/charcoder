@@ -47,6 +47,7 @@ class Charcoder {
   }
 }
 
+Charcoder.Charcoder = Charcoder
 Charcoder.NUM = NUM
 Charcoder.ABC = ABC
 Charcoder.HEX = HEX
