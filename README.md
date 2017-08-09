@@ -1,6 +1,8 @@
 # charcoder
 
 [![Build Status](https://travis-ci.org/robojones/charcoder.svg?branch=master)](https://travis-ci.org/robojones/charcoder)
+[![Test Coverage](https://codeclimate.com/github/robojones/charcoder/badges/coverage.svg)](https://codeclimate.com/github/robojones/charcoder/coverage)
+[![Issue Count](https://codeclimate.com/github/robojones/charcoder/badges/issue_count.svg)](https://codeclimate.com/github/robojones/charcoder)
 
 ## Installation
 
