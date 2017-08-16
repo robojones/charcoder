@@ -39,7 +39,7 @@ b62.decode('1C') // 100
 
 ### Custom
 
-You can use any characters to create your own numeral system. For example `-`, `+` and the word `hello`.
+You can use any characters to create your own numeral system. For example `-`, `+` and the word `hey`.
 
 ```javascript
 const Charcoder = require('charcode')
