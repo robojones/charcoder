@@ -1,4 +1,5 @@
 # charcoder
+Convert numbers into different numeral systems and back
 
 [![Build Status](https://travis-ci.org/robojones/charcoder.svg?branch=master)](https://travis-ci.org/robojones/charcoder)
 [![Test Coverage](https://codeclimate.com/github/robojones/charcoder/badges/coverage.svg)](https://codeclimate.com/github/robojones/charcoder/coverage)
