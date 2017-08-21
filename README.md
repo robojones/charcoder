@@ -7,8 +7,8 @@ Convert numbers into different numeral systems and back
 
 ## Installation
 
-```
-npm i charcoder
+```bash
+npm i charcoder --save
 ```
 
 ## Usage
