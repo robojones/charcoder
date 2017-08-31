@@ -3,7 +3,12 @@ Convert numbers into different numeral systems and back
 
 [![Build Status](https://travis-ci.org/robojones/charcoder.svg?branch=master)](https://travis-ci.org/robojones/charcoder)
 [![Test Coverage](https://codeclimate.com/github/robojones/charcoder/badges/coverage.svg)](https://codeclimate.com/github/robojones/charcoder/coverage)
-[![Issue Count](https://codeclimate.com/github/robojones/charcoder/badges/issue_count.svg)](https://codeclimate.com/github/robojones/charcoder)
+
+[![bitHound Code](https://www.bithound.io/github/robojones/charcoder/badges/code.svg)](https://www.bithound.io/github/robojones/charcoder)
+[![bitHound Overall Score](https://www.bithound.io/github/robojones/charcoder/badges/score.svg)](https://www.bithound.io/github/robojones/charcoder)
+[![bitHound Dependencies](https://www.bithound.io/github/robojones/charcoder/badges/dependencies.svg)](https://www.bithound.io/github/robojones/charcoder/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/robojones/charcoder/badges/devDependencies.svg)](https://www.bithound.io/github/robojones/charcoder/master/dependencies/npm)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
 
